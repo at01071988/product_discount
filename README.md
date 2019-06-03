@@ -1,9 +1,9 @@
 # Requirements
 For building and running the application you need:
 
-JDK 1.8
-Maven 3
-mysql 8.0.16
+1. JDK 1.8
+2. Maven 3
+3. mysql 8.0.16
 
 # add Sql Script
 sql schema in location - **ProductDiscount/src/main/resources/db/SQL-Script.sql**
@@ -19,7 +19,8 @@ mvn spring-boot:run
 # API specifications 
 Check End-points in Postman
 
-**a). Add Groups**
+**a). Add Groups** 
+
 /addGroup?groupName=Affiliated&percentage=10
 
 **b). Add User**
@@ -31,6 +32,7 @@ add in Body, select type JSON(application/json) -
 {"userName":"XYZ","type":"non-grocery","bill":"200","groupName":"Employee"}
 
 **c). get discount by giving userName**
+
     /getDiscount/{userName}
 
 
