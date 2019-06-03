@@ -6,7 +6,7 @@ For building and running the application you need:
 3. mysql 8.0.16
 
 # add Sql Script
-sql schema in location - **ProductDiscount/src/main/resources/db/SQL-Script.sql**
+SQL-Schema Location - **ProductDiscount/src/main/resources/db/SQL-Script.sql**
 
 
 # Running the application locally
